@@ -1,0 +1,29 @@
+# Ignore virtual environment
+env/
+
+# Python specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# Data files
+data/raw/
+data/processed/
+
+# Reports
+reports/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Sensitive information (e.g., API keys, config files)
+*.env
